@@ -44,3 +44,31 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## json-server
+
+`
+npx json-server --watch db.json --port 4000
+
+`
+
+## Tests
+
+```
+npm run test
+npm run test -- --coverage
+
+```
+
+
+## npm install
+
+```
+npm i --save-dev msw
+
+npm install --save-dev msw@1.3.2
+
+npm i --save-dev msw@1.2.4
+
+```
